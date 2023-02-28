@@ -1,0 +1,66 @@
+.model-div {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0rem;
+  left: 0;
+  z-index: 99;
+  background-color: #17202a;
+  padding: 3rem;
+}
+.figure-div {
+  display: flex;
+  align-items: center;
+  font-size: 3rem;
+}
+.close-btn {
+  position: absolute;
+  right: 2rem;
+  top: 1rem;
+  cursor: pointer;
+}
+figure {
+  width: 40%;
+  height: 40%;
+  margin: 0 auto;
+}
+.movie-info {
+  margin-top: 2rem;
+  height: 60%;
+  overflow-y: scroll;
+}
+.movie-info::-webkit-scrollbar {
+  display: none;
+}
+.previous-btn {
+  position: relative;
+  left: 20rem;
+}
+.next-btn {
+  position: relative;
+  right: 20rem;
+}
+.modelImage {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.2rem;
+}
+.movie-title {
+  text-align: center;
+  color: rgba(225, 190, 190, 0.917);
+}
+.movie-info-time {
+  color: rgba(225, 190, 190, 0.917);
+  display: flex;
+  justify-content: center;
+}
+strong {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgba(225, 190, 190, 0.917);
+}
+
+li {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.491);
+}
